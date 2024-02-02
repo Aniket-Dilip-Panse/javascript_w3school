@@ -18,3 +18,5 @@ console.log(value.length)
 // string == and ===
 console.log(a == b) //true
 console.log(a === b) // false objects cannot be compared in javascript.
+
+console.log(typeof value)
