@@ -30,3 +30,27 @@ console.log(letter2)
 
 let charCode = email.charCodeAt(0)
 console.log(charCode) // return the ascii value of the string
+
+
+// string slicing.
+// There are 3 methods for extracting a part of a string:
+
+// slice(start, end)
+// substring(start, end)
+// substr(start, length)
+console.log(name.slice(0, 5))
+console.log(name.substring(0, 5))
+console.log(name.substr(0, 5))
+
+console.log(address.toUpperCase())
+console.log(address.toLowerCase())
+console.log(name.includes('n'))
+
+console.log(name.concat(' ', address))
+
+
+let car = '  lamborghini  '
+console.log(car.trim()) // remove spaces from both side
+console.log(car.trimStart()) // remove spaces from start
+console.log(car.trimEnd()) // remove spaces from end
+console.log(info.email.includes('@'))
