@@ -46,4 +46,11 @@ console.log(address.toUpperCase())
 console.log(address.toLowerCase())
 console.log(name.includes('n'))
 
-console.log(name.concat(' ',address))
+console.log(name.concat(' ', address))
+
+
+let car = '  lamborghini  '
+console.log(car.trim()) // remove spaces from both side
+console.log(car.trimStart()) // remove spaces from start
+console.log(car.trimEnd()) // remove spaces from end
+console.log(info.email.includes('@'))
