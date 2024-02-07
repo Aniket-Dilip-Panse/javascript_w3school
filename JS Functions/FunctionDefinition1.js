@@ -18,3 +18,5 @@ const myFunction = function (a, b) {
 };
 let sum = myFunction(10, 20)
 console.log(sum)
+
+// Function Hoisting
