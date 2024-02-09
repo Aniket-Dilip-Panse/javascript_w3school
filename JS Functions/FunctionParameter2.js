@@ -7,3 +7,9 @@
 // Function parameters are the names listed in the function definition.
 
 // Function arguments are the real values passed to (and received by) the function.
+
+function info(name, age, address) {
+        console.log(name, age, address);
+    }
+    
+info('siddheshwar koli', 23, 'Jat');
