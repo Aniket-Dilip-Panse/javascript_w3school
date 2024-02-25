@@ -32,4 +32,11 @@ console.log(z);
 
 // 6. Only use const if you MUST support ES6 (2015) or newer browsers
 
-// 7. Variable declared but does not assign value to it will be undefined and output will be undefined
+// 7.=================IMP ===================
+//  Variable declared but does not assign value to it will be undefined and output will be undefined
+
+var surname = "panse";
+var surname; //undefined
+console.log(surname); //panse
+
+// If you re-declare a JavaScript variable declared with var, it will not lose its value.
