@@ -54,3 +54,8 @@ console.log(car.trim()) // remove spaces from both side
 console.log(car.trimStart()) // remove spaces from start
 console.log(car.trimEnd()) // remove spaces from end
 console.log(info.email.includes('@'))
+
+// split method
+let str = 'aniket, dilip, panse'
+let arr = str.split(',')
+console.log(arr)
