@@ -59,3 +59,10 @@ console.log(info.email.includes('@'))
 let str = 'aniket, dilip, panse'
 let arr = str.split(',')
 console.log(arr)
+
+
+// replace(oldValue,newValue): Replaces a specified substring with another substring.
+
+// math(regexp): Searches a string for a specified pattern and returns an array of matches.
+
+// search(regexp): Searches a string for a specified value, or a regular expression, and returns the index of the match.
