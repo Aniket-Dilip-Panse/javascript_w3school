@@ -66,3 +66,21 @@ console.log(arr)
 // math(regexp): Searches a string for a specified pattern and returns an array of matches.
 
 // search(regexp): Searches a string for a specified value, or a regular expression, and returns the index of the match.
+
+let string = "hello creative developer";
+console.log(string)
+
+var newText = string.replace("hello", "namaskar");
+console.log(newText);
+
+// EXAMPLE OF MATCH
+// string.match("word"); return an array
+
+let matching = string.match("creative");
+console.log(matching)
+
+// EXAMPLE OF SEARCH
+// string.search("word"); return the index -1 if not found
+
+let search = string.search("creative");
+console.log(search)
