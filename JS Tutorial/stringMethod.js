@@ -84,3 +84,9 @@ console.log(matching)
 
 let search = string.search("creative");
 console.log(search)
+
+let introduction = "myself aniket dilip panse born at village but brought up in mumbai currently living in pune. pursing MCA. i am a fresher.";
+// console.log(introduction.match(/mumbai/gi))
+
+let find = introduction.search(/mumbai/gi)
+console.log(find);
