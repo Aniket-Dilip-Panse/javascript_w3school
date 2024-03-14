@@ -21,3 +21,5 @@ containers.forEach(container => {
     }) 
 })
 
+var today = new Date().toISOString().split("T")[0];
+document.getElementById("date-input").setAttribute("max", today)
