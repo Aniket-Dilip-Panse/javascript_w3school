@@ -14,12 +14,14 @@ draggable.forEach(draggable => {
 
 
 containers.forEach(container => {
-    container.addEventListener('dragover'e => {
+    container.addEventListener('dragover' ,e => {
         e.preventDefault();
         const draggable = document.querySelector('.dragging');
         container.appendChild(draggable);
     }) 
 })
 
-var today = new Date().toISOString().split("T")[0];
-document.getElementById("date-input").setAttribute("max", today)
+function dates() {
+    var tarik = new Date().toISOString.split('T')[0];
+    document.getElementById("date-input").max = tarik;
+}
