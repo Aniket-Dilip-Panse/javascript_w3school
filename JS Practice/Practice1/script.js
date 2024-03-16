@@ -22,6 +22,6 @@ containers.forEach(container => {
 })
 
 function dates() {
-    var tarik = new Date().toISOString.split('T')[0];
-    document.getElementById("date-input").max = tarik;
+ let today =  new Date().toISOString().split('T')[0];
+ document.getElementById("date-input").setAttribute('min', today);
 }
