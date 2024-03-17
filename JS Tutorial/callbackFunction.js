@@ -16,3 +16,12 @@ function evaluate(function2) {
    return function2
 }
 console.log(evaluate(result));
+
+function outer(function1) {
+    function inner(function2) {
+        console.log("namaskar");
+        return function2 + function2;
+    }
+    console.log(inner(function1))
+}
+console.log(outer(2));
