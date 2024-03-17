@@ -25,3 +25,9 @@ function outer(function1) {
     console.log(inner(function1))
 }
 console.log(outer(2));
+
+fun = () => {
+    console.log("fun");
+    return 10;
+}
+console.log(fun());
