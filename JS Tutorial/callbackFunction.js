@@ -11,3 +11,8 @@ const result = calculate(5, 5, function (num1, num2) {
     return num1 + num2
 })
 console.log(result)
+
+function evaluate(function2) {
+   return function2
+}
+console.log(evaluate(result));
