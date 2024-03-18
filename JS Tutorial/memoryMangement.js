@@ -17,4 +17,6 @@ console.log(myObject) //heap memory
 
 // =============== MOST IMPORTANT===============
 // stack :- stack provide the copy of value
-// heap :- heap provide reference of value 
+// heap :- heap provide reference of value
+// stack memory contain variable and function
+// heap memory contain object
